@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hello! I am Vasilis Naskos, a passionate software engineer with a special love to explore the unknown. Currently, I am working as a software engineer at CERN developing network tools to assist scientists to solve mysteries of the universe. At the same time, I am doing my first steps in starting a travel-tech startup ([Check this out :grin:](https://levart.app)).  
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[vnaskos@gmail.com](mailto:vnaskos@gmail.com)
