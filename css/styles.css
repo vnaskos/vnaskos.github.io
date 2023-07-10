@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+:root {
+    --main-color: #4c5775;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    padding: 1em;
+    line-height: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.wrapper {
+    max-width: 40em;
+}
+
+.highlight {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: .1em;
+}
+
+.col-2 {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    border: .4em solid var(--main-color);
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    margin: 2em;
+}
+
+section {
+    margin: 3em auto;
+}
+
+.countries ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+
+.countries ul li {
+    display: inline-block;
+    width: 8em;
+}
+
+.social {
+    display: flex;
+    column-gap: 2em;
+    margin-bottom: 0;
+}
+
+.social a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: .2em dashed var(--main-color);
+}
+
+.social a:before {
+    content: '> ';
+}
+
+.social a:visited {
+    color: #000;
+}
+
+@media (max-width: 630px) {
+    .wrapper {
+        max-width: 100%;
+    }
+
+    .col-2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

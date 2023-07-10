@@ -1,18 +1,61 @@
----
-layout: default
----
+<html>
+<head>
+    <meta charset="utf-8">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    <title>Vasilis Naskos</title>
+    <meta name="description" content="Hey I am Vasilis Naskos and that's my personal website">
+    <meta name="author" content="Vasilis Naskos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Vasilis Naskos</h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <div class="col-2">
+            <img class="profile-img" src="assets/profile.jpeg">
+            <p>Hey, welcome to my world! I'm Vasilis Naskos, a passionate software engineer at CERN and an adventurous entrepreneur in the travel-tech industry.</p>
+        </div>
+        <p>Join me on my website as I share my journey, insights, and projects in the exciting realms of <span class="highlight">software development</span>, <span class="highlight">science</span>, and <span class="highlight">travelling</span>. Let's embark on an inspiring adventure together as we merge technology, curiosity, and the pursuit of innovation.</p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+        <section class="countries">
+            <h2>Countries I've visited</h2>
+            <ul>
+                <li>🇦🇹 Austria</li>
+                <li>🇧🇪 Belgium</li>
+                <li>🇩🇰 Denmark</li>
+                <li>🇪🇪 Estonia</li>
+                <li>🇫🇷 France</li>
+                <li>🇫🇴 Faroe Islands</li>
+                <li>🇩🇪 Germany</li>
+                <li>🇬🇷 Greece</li>
+                <li>🇭🇺 Hungary</li>
+                <li>🇮🇹 Italy</li>
+                <li>🇱🇻 Latvia</li>
+                <li>🇲🇹 Malta</li>
+                <li>🇳🇱 Netherlands</li>
+                <li>🇱🇹 Lithuania</li>
+                <li>🇵🇱 Poland</li>
+                <li>🇵🇹 Portugal</li>
+                <li>🇷🇴 Romania</li>
+                <li>🇷🇺 Russia</li>
+                <li>🇸🇲 San Marino</li>
+                <li>🇸🇰 Slovakia</li>
+                <li>🇪🇸 Spain</li>
+                <li>🇸🇪 Sweden</li>
+                <li>🇨🇭Switzerland</li>
+                <li>🇹🇭 Thailand</li>
+                <li>🇹🇷 Turkey</li>
+                <li>🇦🇪 UAE</li>
+                <li>🇬🇧 UK</li>
+            </ul>
+        </section>
+
+        <section class="social">
+            <a href="https://github.com/vnaskos">Github</a>
+            <a href="https://www.linkedin.com/in/vasilisnaskos/">LinkedIn</a>
+        </section>
+    </div>
+</body>
+</html>
